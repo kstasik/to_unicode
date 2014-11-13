@@ -15,7 +15,6 @@ to_unicode_(Input, Cs) when Cs=='latin2';Cs=='iso-8859-2';Cs=='l2';
 latin2_to_unicode(Input) ->
 	'to_unicode_table-8859-2':map(Input).
 
-
 % Simpler API
 
 % Enc0 is a string describing input encoding

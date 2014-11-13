@@ -1,0 +1,12 @@
+{application, to_unicode,
+ [
+  {description, "To unicode converter"},
+  {vsn, "0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { to_unicode, []}},
+  {env, []}
+]}.
